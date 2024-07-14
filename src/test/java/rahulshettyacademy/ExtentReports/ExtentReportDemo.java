@@ -24,7 +24,8 @@ public class ExtentReportDemo {
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "Kiran J");
-	}
+		System.out.println("git test");	
+		System.out.println("git test1")}
 
 	@Test
 	public void initialDemo() {
